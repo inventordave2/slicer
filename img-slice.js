@@ -83,6 +83,7 @@ function slice(img, rows, cols, ft, fn, fp, scale, toDURL)	{
 	var OW = IW
 	var OH = IH
 	
+	
 	if(scale!=0)	{
 		
 		OW = s_w * scale
@@ -96,7 +97,7 @@ function slice(img, rows, cols, ft, fn, fp, scale, toDURL)	{
 		for(var j = 0; j < rows; j++)	{
 			
 			const ctx = canv.getContext('2d')
-			ctx.drawImage(img, s_w * l, s_h * j, s_w, s_h, 0, 0, s_w, s_h)
+			ctx.drawImage(img, s_w * l, s_h * j, s_w, s_h, 0, 0, OW, OH)
 			//image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
 			
 			let format = 'image/' + ft
