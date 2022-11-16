@@ -1,6 +1,6 @@
 {
   "name": "img-slicer",
-  "version": "0.1.3",
+  "version": "0.1.72",
   "description": "Currently slices an input image file, and outputs col x row tiles, that combine to form the original image.",
   "main": "img-slice.js",
   "dependencies": {
@@ -70,11 +70,11 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "test": "img-slice 0.jpg 3 2 png \"{c} x {r}\" 1 null false"
+    "test": "img-slice tiletest.jpg 3 2 png \"{c} x {r}\" 1 null false"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/InventorDave/slicer.git"
+    "url": "git+https://github.com/inventordave2/slicer.git"
   },
   "keywords": [
     "image",
@@ -95,7 +95,7 @@
   "author": "Inventor Dave",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/InventorDave/slicer/issues"
+    "url": "https://github.com/inventordave2/slicer/issues"
   },
-  "homepage": "https://github.com/InventorDave/slicer#readme"
+  "homepage": "https://github.com/inventordave2/slicer#readme"
 }

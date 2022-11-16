@@ -1,16 +1,16 @@
-Hi Christopher, I'm Nero.
+# Hi Christopher, I'm Nero.
 
-This utility takes as input a tiled image file (any image format compatible with node-canvas), and outputs the individual tiles as image files. Don't tell me it didn't happen, I saw it happen!
+# This utility takes as input a tiled image file (any image format compatible with node-canvas), and outputs the individual tiles as image files. Don't tell me it didn't happen, I saw it happen!
 
-(The next version will also allow you to stitch tiles together. The net effect is you will be able to select arbitrary regions of input images, and output images made of arbitrary tiles, that's pretty useful, no?)
+# (The next version will also allow you to stitch tiles together.)
 
 Usage: 
 
 npm install (if you haven't already, or if you want to download from npm:)
 
-npm install g img-slice
+# npm install g img-slice
 
-node img-slice [input_img_fileName] [cols/x] [rows/y] [jpeg/png/etc] [fileName_formatStr] [scale] [filePath] [toDataURL]
+# node img-slice [input_img_fileName] [cols/x] [rows/y] [jpeg/png/etc] [fileName_formatStr] [scale] [filePath] [toDataURL]
 
 There are up to 7 arguments that can be passed to img-slice. They are as follows:
 

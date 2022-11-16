@@ -117,7 +117,6 @@ function slice(img, rows, cols, ft, fn, fp, scale, toDURL)	{
 			}
 			
 
-			
 			let fname = fp + fn2 + ft2
 			let buffer = undefined
 			let dataStr = undefined
